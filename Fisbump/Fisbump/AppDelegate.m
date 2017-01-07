@@ -20,6 +20,7 @@
     NSLog(@"Fisbump1");
     NSLog(@"我是xtdm");
     NSLog(@"我是firstBranch");
+    NSLog(@"我是secandBranch");
     return YES;
 }
 
