@@ -62,6 +62,14 @@
 		1BD505511E214115004172E2 /* Fisbump */ = {
 			isa = PBXGroup;
 			children = (
+				1BD505711E216A78004172E2 /* search */,
+				1BD505701E216A63004172E2 /* issu */,
+				1BD5056F1E216A4A004172E2 /* setting */,
+				1BD5056E1E216A3F004172E2 /* base */,
+				1BD5056D1E216A2B004172E2 /* util */,
+				1BD5056C1E216A20004172E2 /* me */,
+				1BD5056B1E216A15004172E2 /* register */,
+				1BD5056A1E216A02004172E2 /* login */,
 				1BD505691E21427C004172E2 /* home */,
 				1BD505521E214115004172E2 /* Supporting Files */,
 			);
@@ -87,6 +95,62 @@
 				1BD505561E214115004172E2 /* AppDelegate.m */,
 			);
 			name = home;
+			sourceTree = "<group>";
+		};
+		1BD5056A1E216A02004172E2 /* login */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = login;
+			sourceTree = "<group>";
+		};
+		1BD5056B1E216A15004172E2 /* register */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = register;
+			sourceTree = "<group>";
+		};
+		1BD5056C1E216A20004172E2 /* me */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = me;
+			sourceTree = "<group>";
+		};
+		1BD5056D1E216A2B004172E2 /* util */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = util;
+			sourceTree = "<group>";
+		};
+		1BD5056E1E216A3F004172E2 /* base */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = base;
+			sourceTree = "<group>";
+		};
+		1BD5056F1E216A4A004172E2 /* setting */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = setting;
+			sourceTree = "<group>";
+		};
+		1BD505701E216A63004172E2 /* issu */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = issu;
+			sourceTree = "<group>";
+		};
+		1BD505711E216A78004172E2 /* search */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = search;
 			sourceTree = "<group>";
 		};
 		A61308979535C0E7FCB1EB46 /* Frameworks */ = {
