@@ -19,6 +19,7 @@
     // Override point for customization after application launch.
     NSLog(@"Fisbump1");
     NSLog(@"我是xtdm");
+    NSLog(@"我是secandBranch");
     return YES;
 }
 
