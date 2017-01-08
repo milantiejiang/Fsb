@@ -17,6 +17,10 @@
 		1B23A9FD1E220C0500BC31D2 /* FSBMeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B23A9FB1E220C0500BC31D2 /* FSBMeViewController.xib */; };
 		1B23AA011E220C1800BC31D2 /* FSBSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B23A9FF1E220C1800BC31D2 /* FSBSearchViewController.m */; };
 		1B23AA021E220C1800BC31D2 /* FSBSearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B23AA001E220C1800BC31D2 /* FSBSearchViewController.xib */; };
+		1B23AA061E2237D700BC31D2 /* FSBSendShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B23AA041E2237D700BC31D2 /* FSBSendShareViewController.m */; };
+		1B23AA071E2237D700BC31D2 /* FSBSendShareViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B23AA051E2237D700BC31D2 /* FSBSendShareViewController.xib */; };
+		1B23AA0C1E223E3400BC31D2 /* FSBSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B23AA0A1E223E3400BC31D2 /* FSBSettingViewController.m */; };
+		1B23AA0D1E223E3400BC31D2 /* FSBSettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B23AA0B1E223E3400BC31D2 /* FSBSettingViewController.xib */; };
 		1BD505541E214115004172E2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BD505531E214115004172E2 /* main.m */; };
 		1BD505571E214115004172E2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BD505561E214115004172E2 /* AppDelegate.m */; };
 		1BD5055D1E214115004172E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BD5055B1E214115004172E2 /* Main.storyboard */; };
@@ -43,6 +47,12 @@
 		1B23A9FE1E220C1800BC31D2 /* FSBSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSBSearchViewController.h; sourceTree = "<group>"; };
 		1B23A9FF1E220C1800BC31D2 /* FSBSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSBSearchViewController.m; sourceTree = "<group>"; };
 		1B23AA001E220C1800BC31D2 /* FSBSearchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FSBSearchViewController.xib; sourceTree = "<group>"; };
+		1B23AA031E2237D700BC31D2 /* FSBSendShareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSBSendShareViewController.h; sourceTree = "<group>"; };
+		1B23AA041E2237D700BC31D2 /* FSBSendShareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSBSendShareViewController.m; sourceTree = "<group>"; };
+		1B23AA051E2237D700BC31D2 /* FSBSendShareViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FSBSendShareViewController.xib; sourceTree = "<group>"; };
+		1B23AA091E223E3400BC31D2 /* FSBSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSBSettingViewController.h; sourceTree = "<group>"; };
+		1B23AA0A1E223E3400BC31D2 /* FSBSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSBSettingViewController.m; sourceTree = "<group>"; };
+		1B23AA0B1E223E3400BC31D2 /* FSBSettingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FSBSettingViewController.xib; sourceTree = "<group>"; };
 		1BD5054F1E214115004172E2 /* Fisbump.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fisbump.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BD505531E214115004172E2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1BD505551E214115004172E2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -176,6 +186,9 @@
 		1BD5056F1E216A4A004172E2 /* setting */ = {
 			isa = PBXGroup;
 			children = (
+				1B23AA091E223E3400BC31D2 /* FSBSettingViewController.h */,
+				1B23AA0A1E223E3400BC31D2 /* FSBSettingViewController.m */,
+				1B23AA0B1E223E3400BC31D2 /* FSBSettingViewController.xib */,
 			);
 			name = setting;
 			sourceTree = "<group>";
@@ -183,6 +196,9 @@
 		1BD505701E216A63004172E2 /* issu */ = {
 			isa = PBXGroup;
 			children = (
+				1B23AA031E2237D700BC31D2 /* FSBSendShareViewController.h */,
+				1B23AA041E2237D700BC31D2 /* FSBSendShareViewController.m */,
+				1B23AA051E2237D700BC31D2 /* FSBSendShareViewController.xib */,
 			);
 			name = issu;
 			sourceTree = "<group>";
@@ -278,8 +294,10 @@
 			files = (
 				1BD505621E214115004172E2 /* LaunchScreen.storyboard in Resources */,
 				1B23A9FD1E220C0500BC31D2 /* FSBMeViewController.xib in Resources */,
+				1B23AA071E2237D700BC31D2 /* FSBSendShareViewController.xib in Resources */,
 				1B23A9F81E220BE200BC31D2 /* FSBHomeViewController.xib in Resources */,
 				1BD5055F1E214115004172E2 /* Assets.xcassets in Resources */,
+				1B23AA0D1E223E3400BC31D2 /* FSBSettingViewController.xib in Resources */,
 				1B23AA021E220C1800BC31D2 /* FSBSearchViewController.xib in Resources */,
 				1BD5055D1E214115004172E2 /* Main.storyboard in Resources */,
 			);
@@ -344,6 +362,8 @@
 				1B23A9F31E220AFA00BC31D2 /* FSBBaseViewController.m in Sources */,
 				1BD505541E214115004172E2 /* main.m in Sources */,
 				1B23A9ED1E220A2800BC31D2 /* FSBTabBarViewController.m in Sources */,
+				1B23AA061E2237D700BC31D2 /* FSBSendShareViewController.m in Sources */,
+				1B23AA0C1E223E3400BC31D2 /* FSBSettingViewController.m in Sources */,
 				1B23A9FC1E220C0500BC31D2 /* FSBMeViewController.m in Sources */,
 				1B23A9F01E220ABD00BC31D2 /* FSBNavigationViewController.m in Sources */,
 				1B23A9F71E220BE200BC31D2 /* FSBHomeViewController.m in Sources */,

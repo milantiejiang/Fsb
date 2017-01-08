@@ -22,7 +22,7 @@
 - (void)setupNav {
     UISearchBar * searchbar = [[UISearchBar alloc]initWithFrame:CGRectMake(0, 0, 200, 44)];
     searchbar.placeholder=@"搜索";
-    [searchbar setBackgroundColor:[UIColor whiteColor]];
+//    [searchbar setBackgroundColor:[UIColor whiteColor]];
     //输入框里面的背景颜色
     UITextField *searchFiled=[searchbar valueForKey:@"_searchField"];
     searchFiled.backgroundColor=[UIColor colorWithRed:220.0f/255.0f green:221.0f/255.0f blue:224.0f/255.0f alpha:1];

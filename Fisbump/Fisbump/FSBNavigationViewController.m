@@ -16,10 +16,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
-    UIColor * radomcolor = [UIColor colorWithRed:255/255.0 green:255/255.0 blue:255/255.0 alpha:1];
     
-    self.navigationBar.barTintColor = radomcolor;
+//    self.navigationBar.barTintColor = [UIColor whiteColor];
+//    self.navigationBar.backgroundColor=[UIColor whiteColor];
     
     self.navigationBar.tintColor = [UIColor blackColor];
 

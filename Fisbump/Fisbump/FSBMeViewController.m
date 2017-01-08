@@ -7,7 +7,7 @@
 //
 
 #import "FSBMeViewController.h"
-
+#import "FSBSettingViewController.h"
 @interface FSBMeViewController ()
 
 @end
@@ -26,7 +26,7 @@
 
 - (void)setupNav {
     UILabel *titleLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 200, 44)];
-    titleLabel.backgroundColor = [UIColor whiteColor];
+//    titleLabel.backgroundColor = [UIColor whiteColor];
     titleLabel.font = [UIFont boldSystemFontOfSize:20];
     titleLabel.textColor = [UIColor blackColor];
     titleLabel.textAlignment = NSTextAlignmentCenter;
@@ -37,7 +37,11 @@
 }
 
 - (void)setting {
+    self.hidesBottomBarWhenPushed=YES;
+    FSBSettingViewController * sendSharePage = [[FSBSettingViewController alloc] init];
     
+    [self.navigationController pushViewController: sendSharePage animated:true];
+    self.hidesBottomBarWhenPushed=NO;
 }
 
 @end
