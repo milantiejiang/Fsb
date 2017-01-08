@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "FSBTabBarViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -17,10 +17,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    NSLog(@"Fisbump1");
-    NSLog(@"我是xtdm");
-    NSLog(@"我是firstBranch");
-    NSLog(@"我是secandBranch");
+    FSBTabBarViewController * mainVC ;
+    
+    mainVC = [[FSBTabBarViewController alloc] init];
+        
+        
+    self.window.rootViewController = mainVC;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
