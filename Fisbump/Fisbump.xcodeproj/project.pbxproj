@@ -21,11 +21,22 @@
 		1B23AA071E2237D700BC31D2 /* FSBSendShareViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B23AA051E2237D700BC31D2 /* FSBSendShareViewController.xib */; };
 		1B23AA0C1E223E3400BC31D2 /* FSBSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B23AA0A1E223E3400BC31D2 /* FSBSettingViewController.m */; };
 		1B23AA0D1E223E3400BC31D2 /* FSBSettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B23AA0B1E223E3400BC31D2 /* FSBSettingViewController.xib */; };
+		1BC692AB1E235AB10099909A /* HttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC692A81E235AB10099909A /* HttpTool.m */; };
+		1BC692AC1E235AB10099909A /* UIImageView+SDWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC692AA1E235AB10099909A /* UIImageView+SDWebImage.m */; };
+		1BC692AF1E235CE00099909A /* FSBBaseHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC692AE1E235CE00099909A /* FSBBaseHandler.m */; };
+		1BC692B21E236E710099909A /* FSBHomeHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC692B11E236E710099909A /* FSBHomeHandler.m */; };
+		1BC692B61E23B9280099909A /* FSBShare.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC692B51E23B9280099909A /* FSBShare.m */; };
+		1BC692B91E23B9A80099909A /* FSBUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC692B81E23B9A80099909A /* FSBUser.m */; };
+		1BC692BC1E23B9BF0099909A /* FSBIMG.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC692BB1E23B9BF0099909A /* FSBIMG.m */; };
 		1BD505541E214115004172E2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BD505531E214115004172E2 /* main.m */; };
 		1BD505571E214115004172E2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BD505561E214115004172E2 /* AppDelegate.m */; };
 		1BD5055D1E214115004172E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BD5055B1E214115004172E2 /* Main.storyboard */; };
 		1BD5055F1E214115004172E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BD5055E1E214115004172E2 /* Assets.xcassets */; };
 		1BD505621E214115004172E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BD505601E214115004172E2 /* LaunchScreen.storyboard */; };
+		1BE44CE51E24706F00C00DA9 /* FSBShareCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE44CE31E24706F00C00DA9 /* FSBShareCell.m */; };
+		1BE44CE61E24706F00C00DA9 /* FSBShareCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BE44CE41E24706F00C00DA9 /* FSBShareCell.xib */; };
+		1BE44CEA1E2481A800C00DA9 /* FSBTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE44CE81E2481A800C00DA9 /* FSBTableViewController.m */; };
+		1BE44CEB1E2481A800C00DA9 /* FSBTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BE44CE91E2481A800C00DA9 /* FSBTableViewController.xib */; };
 		EE820DCCBCDD45CD00ABFA0E /* libPods-Fisbump.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC18B31BE7AE15559ACEDD0F /* libPods-Fisbump.a */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +64,21 @@
 		1B23AA091E223E3400BC31D2 /* FSBSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSBSettingViewController.h; sourceTree = "<group>"; };
 		1B23AA0A1E223E3400BC31D2 /* FSBSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSBSettingViewController.m; sourceTree = "<group>"; };
 		1B23AA0B1E223E3400BC31D2 /* FSBSettingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FSBSettingViewController.xib; sourceTree = "<group>"; };
+		1BC692A41E235A160099909A /* FSBAPIConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSBAPIConfig.h; sourceTree = "<group>"; };
+		1BC692A71E235AB10099909A /* HttpTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HttpTool.h; path = "../../../../Downloads/bjsxt_ios_inke-master/尚学堂映客/尚学堂映客/Class/NetWork/HttpTool.h"; sourceTree = "<group>"; };
+		1BC692A81E235AB10099909A /* HttpTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HttpTool.m; path = "../../../../Downloads/bjsxt_ios_inke-master/尚学堂映客/尚学堂映客/Class/NetWork/HttpTool.m"; sourceTree = "<group>"; };
+		1BC692A91E235AB10099909A /* UIImageView+SDWebImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImageView+SDWebImage.h"; path = "../../../../Downloads/bjsxt_ios_inke-master/尚学堂映客/尚学堂映客/Class/NetWork/UIImageView+SDWebImage.h"; sourceTree = "<group>"; };
+		1BC692AA1E235AB10099909A /* UIImageView+SDWebImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+SDWebImage.m"; path = "../../../../Downloads/bjsxt_ios_inke-master/尚学堂映客/尚学堂映客/Class/NetWork/UIImageView+SDWebImage.m"; sourceTree = "<group>"; };
+		1BC692AD1E235CE00099909A /* FSBBaseHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSBBaseHandler.h; sourceTree = "<group>"; };
+		1BC692AE1E235CE00099909A /* FSBBaseHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSBBaseHandler.m; sourceTree = "<group>"; };
+		1BC692B01E236E710099909A /* FSBHomeHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSBHomeHandler.h; sourceTree = "<group>"; };
+		1BC692B11E236E710099909A /* FSBHomeHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSBHomeHandler.m; sourceTree = "<group>"; };
+		1BC692B41E23B9280099909A /* FSBShare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSBShare.h; sourceTree = "<group>"; };
+		1BC692B51E23B9280099909A /* FSBShare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSBShare.m; sourceTree = "<group>"; };
+		1BC692B71E23B9A80099909A /* FSBUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSBUser.h; sourceTree = "<group>"; };
+		1BC692B81E23B9A80099909A /* FSBUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSBUser.m; sourceTree = "<group>"; };
+		1BC692BA1E23B9BF0099909A /* FSBIMG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSBIMG.h; sourceTree = "<group>"; };
+		1BC692BB1E23B9BF0099909A /* FSBIMG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSBIMG.m; sourceTree = "<group>"; };
 		1BD5054F1E214115004172E2 /* Fisbump.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fisbump.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BD505531E214115004172E2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1BD505551E214115004172E2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -61,6 +87,12 @@
 		1BD5055E1E214115004172E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1BD505611E214115004172E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1BD505631E214115004172E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BE44CE21E24706F00C00DA9 /* FSBShareCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSBShareCell.h; sourceTree = "<group>"; };
+		1BE44CE31E24706F00C00DA9 /* FSBShareCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSBShareCell.m; sourceTree = "<group>"; };
+		1BE44CE41E24706F00C00DA9 /* FSBShareCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FSBShareCell.xib; sourceTree = "<group>"; };
+		1BE44CE71E2481A800C00DA9 /* FSBTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSBTableViewController.h; sourceTree = "<group>"; };
+		1BE44CE81E2481A800C00DA9 /* FSBTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSBTableViewController.m; sourceTree = "<group>"; };
+		1BE44CE91E2481A800C00DA9 /* FSBTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FSBTableViewController.xib; sourceTree = "<group>"; };
 		7EF29A23DACA28E21EC65129 /* Pods-Fisbump.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fisbump.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fisbump/Pods-Fisbump.debug.xcconfig"; sourceTree = "<group>"; };
 		A23DBD8469BC682ED969A842 /* Pods-Fisbump.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fisbump.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fisbump/Pods-Fisbump.release.xcconfig"; sourceTree = "<group>"; };
 		EC18B31BE7AE15559ACEDD0F /* libPods-Fisbump.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Fisbump.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -78,6 +110,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1BC692A31E2359CF0099909A /* network */ = {
+			isa = PBXGroup;
+			children = (
+				1BC692A71E235AB10099909A /* HttpTool.h */,
+				1BC692A81E235AB10099909A /* HttpTool.m */,
+				1BC692A91E235AB10099909A /* UIImageView+SDWebImage.h */,
+				1BC692AA1E235AB10099909A /* UIImageView+SDWebImage.m */,
+				1BC692A41E235A160099909A /* FSBAPIConfig.h */,
+			);
+			name = network;
+			sourceTree = "<group>";
+		};
+		1BC692B31E23AF5C0099909A /* model */ = {
+			isa = PBXGroup;
+			children = (
+				1BC692B41E23B9280099909A /* FSBShare.h */,
+				1BC692B51E23B9280099909A /* FSBShare.m */,
+				1BC692B71E23B9A80099909A /* FSBUser.h */,
+				1BC692B81E23B9A80099909A /* FSBUser.m */,
+				1BC692BA1E23B9BF0099909A /* FSBIMG.h */,
+				1BC692BB1E23B9BF0099909A /* FSBIMG.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
 		1BD505461E214115004172E2 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +156,8 @@
 		1BD505511E214115004172E2 /* Fisbump */ = {
 			isa = PBXGroup;
 			children = (
+				1BC692B31E23AF5C0099909A /* model */,
+				1BC692A31E2359CF0099909A /* network */,
 				1BD505711E216A78004172E2 /* search */,
 				1BD505701E216A63004172E2 /* issu */,
 				1BD5056F1E216A4A004172E2 /* setting */,
@@ -128,6 +187,7 @@
 		1BD505691E21427C004172E2 /* home */ = {
 			isa = PBXGroup;
 			children = (
+				1BE44CE11E246FEB00C00DA9 /* view */,
 				1BD505551E214115004172E2 /* AppDelegate.h */,
 				1BD505561E214115004172E2 /* AppDelegate.m */,
 				1B23A9EB1E220A2800BC31D2 /* FSBTabBarViewController.h */,
@@ -135,6 +195,11 @@
 				1B23A9F41E220BE200BC31D2 /* FSBHomeViewController.h */,
 				1B23A9F51E220BE200BC31D2 /* FSBHomeViewController.m */,
 				1B23A9F61E220BE200BC31D2 /* FSBHomeViewController.xib */,
+				1BC692B01E236E710099909A /* FSBHomeHandler.h */,
+				1BC692B11E236E710099909A /* FSBHomeHandler.m */,
+				1BE44CE71E2481A800C00DA9 /* FSBTableViewController.h */,
+				1BE44CE81E2481A800C00DA9 /* FSBTableViewController.m */,
+				1BE44CE91E2481A800C00DA9 /* FSBTableViewController.xib */,
 			);
 			name = home;
 			sourceTree = "<group>";
@@ -179,6 +244,8 @@
 				1B23A9EF1E220ABD00BC31D2 /* FSBNavigationViewController.m */,
 				1B23A9F11E220AFA00BC31D2 /* FSBBaseViewController.h */,
 				1B23A9F21E220AFA00BC31D2 /* FSBBaseViewController.m */,
+				1BC692AD1E235CE00099909A /* FSBBaseHandler.h */,
+				1BC692AE1E235CE00099909A /* FSBBaseHandler.m */,
 			);
 			name = base;
 			sourceTree = "<group>";
@@ -211,6 +278,16 @@
 				1B23AA001E220C1800BC31D2 /* FSBSearchViewController.xib */,
 			);
 			name = search;
+			sourceTree = "<group>";
+		};
+		1BE44CE11E246FEB00C00DA9 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				1BE44CE21E24706F00C00DA9 /* FSBShareCell.h */,
+				1BE44CE31E24706F00C00DA9 /* FSBShareCell.m */,
+				1BE44CE41E24706F00C00DA9 /* FSBShareCell.xib */,
+			);
+			name = view;
 			sourceTree = "<group>";
 		};
 		A61308979535C0E7FCB1EB46 /* Frameworks */ = {
@@ -293,7 +370,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1BD505621E214115004172E2 /* LaunchScreen.storyboard in Resources */,
+				1BE44CE61E24706F00C00DA9 /* FSBShareCell.xib in Resources */,
 				1B23A9FD1E220C0500BC31D2 /* FSBMeViewController.xib in Resources */,
+				1BE44CEB1E2481A800C00DA9 /* FSBTableViewController.xib in Resources */,
 				1B23AA071E2237D700BC31D2 /* FSBSendShareViewController.xib in Resources */,
 				1B23A9F81E220BE200BC31D2 /* FSBHomeViewController.xib in Resources */,
 				1BD5055F1E214115004172E2 /* Assets.xcassets in Resources */,
@@ -358,17 +437,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BC692B91E23B9A80099909A /* FSBUser.m in Sources */,
 				1BD505571E214115004172E2 /* AppDelegate.m in Sources */,
 				1B23A9F31E220AFA00BC31D2 /* FSBBaseViewController.m in Sources */,
+				1BC692B21E236E710099909A /* FSBHomeHandler.m in Sources */,
+				1BC692B61E23B9280099909A /* FSBShare.m in Sources */,
 				1BD505541E214115004172E2 /* main.m in Sources */,
 				1B23A9ED1E220A2800BC31D2 /* FSBTabBarViewController.m in Sources */,
 				1B23AA061E2237D700BC31D2 /* FSBSendShareViewController.m in Sources */,
 				1B23AA0C1E223E3400BC31D2 /* FSBSettingViewController.m in Sources */,
 				1B23A9FC1E220C0500BC31D2 /* FSBMeViewController.m in Sources */,
+				1BE44CE51E24706F00C00DA9 /* FSBShareCell.m in Sources */,
 				1B23A9F01E220ABD00BC31D2 /* FSBNavigationViewController.m in Sources */,
 				1B23A9F71E220BE200BC31D2 /* FSBHomeViewController.m in Sources */,
+				1BE44CEA1E2481A800C00DA9 /* FSBTableViewController.m in Sources */,
+				1BC692AF1E235CE00099909A /* FSBBaseHandler.m in Sources */,
 				1B23A9EA1E22099D00BC31D2 /* FSBTabBar.m in Sources */,
+				1BC692AC1E235AB10099909A /* UIImageView+SDWebImage.m in Sources */,
 				1B23AA011E220C1800BC31D2 /* FSBSearchViewController.m in Sources */,
+				1BC692AB1E235AB10099909A /* HttpTool.m in Sources */,
+				1BC692BC1E23B9BF0099909A /* FSBIMG.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -47,7 +47,7 @@
 
 - (void)configViewControllers {
     
-    NSMutableArray * viewControlNames = [NSMutableArray     arrayWithArray:@[@"FSBHomeViewController",@"FSBSearchViewController",@"FSBMeViewController"]];
+    NSMutableArray * viewControlNames = [NSMutableArray     arrayWithArray:@[@"FSBTableViewController",@"FSBSearchViewController",@"FSBMeViewController"]];
     
     for (NSUInteger i = 0; i < viewControlNames.count; i ++) {
         

@@ -8,7 +8,10 @@
 
 #import "FSBHomeViewController.h"
 #import "FSBSendShareViewController.h"
+#import "FSBHomeHandler.h"
 @interface FSBHomeViewController ()
+
+@property (nonatomic, strong) NSMutableArray * dataList;
 
 @end
 @implementation FSBHomeViewController
@@ -16,6 +19,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self setupNav];
+    [self loadData];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -40,6 +44,24 @@
     
     [self.navigationController pushViewController: sendSharePage animated:true];
     self.hidesBottomBarWhenPushed=NO;
+}
+
+- (void)loadData {
+    [FSBHomeHandler executeGetHotLiveTaskWithPage:1 success:^(id obj) {
+        NSLog(@"%@",obj);
+        [self.dataList addObjectsFromArray:obj];
+        
+    } failed:^(id obj) {
+       NSLog(@"failed");
+    }];
+}
+
+- (NSMutableArray *)dataList {
+    
+    if (!_dataList) {
+        _dataList = [NSMutableArray array];
+    }
+    return _dataList;
 }
 
 @end
