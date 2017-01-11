@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B04388F1E2607270095A0B1 /* MCCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B04388D1E2607270095A0B1 /* MCCollectionViewCell.m */; };
+		1B0438901E2607270095A0B1 /* MCCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B04388E1E2607270095A0B1 /* MCCollectionViewCell.xib */; };
+		1B04389C1E261FCB0095A0B1 /* SFLoadMoreControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B0438961E261FCB0095A0B1 /* SFLoadMoreControl.m */; };
+		1B04389D1E261FCB0095A0B1 /* SFRefreshControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B0438991E261FCB0095A0B1 /* SFRefreshControl.m */; };
+		1B04389E1E261FCB0095A0B1 /* UIScrollView+SFPullRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B04389B1E261FCB0095A0B1 /* UIScrollView+SFPullRefresh.m */; };
+		1B0438A11E261FE60095A0B1 /* SFCircleRefreshControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B0438A01E261FE60095A0B1 /* SFCircleRefreshControl.m */; };
+		1B0438A61E2629710095A0B1 /* FSBDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B0438A41E2629710095A0B1 /* FSBDetailsViewController.m */; };
+		1B0438A71E2629710095A0B1 /* FSBDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B0438A51E2629710095A0B1 /* FSBDetailsViewController.xib */; };
+		1B1A751B1E252D5B0060B63D /* 1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1B1A751A1E252D5B0060B63D /* 1.plist */; };
 		1B23A9EA1E22099D00BC31D2 /* FSBTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B23A9E91E22099D00BC31D2 /* FSBTabBar.m */; };
 		1B23A9ED1E220A2800BC31D2 /* FSBTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B23A9EC1E220A2800BC31D2 /* FSBTabBarViewController.m */; };
 		1B23A9F01E220ABD00BC31D2 /* FSBNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B23A9EF1E220ABD00BC31D2 /* FSBNavigationViewController.m */; };
@@ -37,10 +46,28 @@
 		1BE44CE61E24706F00C00DA9 /* FSBShareCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BE44CE41E24706F00C00DA9 /* FSBShareCell.xib */; };
 		1BE44CEA1E2481A800C00DA9 /* FSBTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE44CE81E2481A800C00DA9 /* FSBTableViewController.m */; };
 		1BE44CEB1E2481A800C00DA9 /* FSBTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BE44CE91E2481A800C00DA9 /* FSBTableViewController.xib */; };
+		1BE44CF11E2495D700C00DA9 /* PSCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE44CEE1E2495D700C00DA9 /* PSCollectionView.m */; };
+		1BE44CF21E2495D700C00DA9 /* PSCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE44CF01E2495D700C00DA9 /* PSCollectionViewCell.m */; };
 		EE820DCCBCDD45CD00ABFA0E /* libPods-Fisbump.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC18B31BE7AE15559ACEDD0F /* libPods-Fisbump.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B04388C1E2607270095A0B1 /* MCCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MCCollectionViewCell.h; path = "../../../../Downloads/WaterflowDemo-master/myDemo/pubuliu/MCCollectionViewCell.h"; sourceTree = "<group>"; };
+		1B04388D1E2607270095A0B1 /* MCCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MCCollectionViewCell.m; path = "../../../../Downloads/WaterflowDemo-master/myDemo/pubuliu/MCCollectionViewCell.m"; sourceTree = "<group>"; };
+		1B04388E1E2607270095A0B1 /* MCCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MCCollectionViewCell.xib; path = "../../../../Downloads/WaterflowDemo-master/myDemo/pubuliu/MCCollectionViewCell.xib"; sourceTree = "<group>"; };
+		1B0438951E261FCB0095A0B1 /* SFLoadMoreControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SFLoadMoreControl.h; path = "../../../../Downloads/SFPullRefresh-master 2/SFPullRefresh/lib/SFLoadMoreControl.h"; sourceTree = "<group>"; };
+		1B0438961E261FCB0095A0B1 /* SFLoadMoreControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SFLoadMoreControl.m; path = "../../../../Downloads/SFPullRefresh-master 2/SFPullRefresh/lib/SFLoadMoreControl.m"; sourceTree = "<group>"; };
+		1B0438971E261FCB0095A0B1 /* SFPullRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SFPullRefresh.h; path = "../../../../Downloads/SFPullRefresh-master 2/SFPullRefresh/lib/SFPullRefresh.h"; sourceTree = "<group>"; };
+		1B0438981E261FCB0095A0B1 /* SFRefreshControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SFRefreshControl.h; path = "../../../../Downloads/SFPullRefresh-master 2/SFPullRefresh/lib/SFRefreshControl.h"; sourceTree = "<group>"; };
+		1B0438991E261FCB0095A0B1 /* SFRefreshControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SFRefreshControl.m; path = "../../../../Downloads/SFPullRefresh-master 2/SFPullRefresh/lib/SFRefreshControl.m"; sourceTree = "<group>"; };
+		1B04389A1E261FCB0095A0B1 /* UIScrollView+SFPullRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+SFPullRefresh.h"; path = "../../../../Downloads/SFPullRefresh-master 2/SFPullRefresh/lib/UIScrollView+SFPullRefresh.h"; sourceTree = "<group>"; };
+		1B04389B1E261FCB0095A0B1 /* UIScrollView+SFPullRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+SFPullRefresh.m"; path = "../../../../Downloads/SFPullRefresh-master 2/SFPullRefresh/lib/UIScrollView+SFPullRefresh.m"; sourceTree = "<group>"; };
+		1B04389F1E261FE60095A0B1 /* SFCircleRefreshControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SFCircleRefreshControl.h; path = "../../../../Downloads/SFPullRefresh-master 2/SFPullRefresh/lib/custom/SFCircleRefreshControl.h"; sourceTree = "<group>"; };
+		1B0438A01E261FE60095A0B1 /* SFCircleRefreshControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SFCircleRefreshControl.m; path = "../../../../Downloads/SFPullRefresh-master 2/SFPullRefresh/lib/custom/SFCircleRefreshControl.m"; sourceTree = "<group>"; };
+		1B0438A31E2629710095A0B1 /* FSBDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSBDetailsViewController.h; sourceTree = "<group>"; };
+		1B0438A41E2629710095A0B1 /* FSBDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSBDetailsViewController.m; sourceTree = "<group>"; };
+		1B0438A51E2629710095A0B1 /* FSBDetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FSBDetailsViewController.xib; sourceTree = "<group>"; };
+		1B1A751A1E252D5B0060B63D /* 1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = 1.plist; path = "../../../../Downloads/XRWaterfallLayout-master/XRWaterfallLayoutDemo/XRWaterFallLayoutDemo/1.plist"; sourceTree = "<group>"; };
 		1B23A9E81E22099D00BC31D2 /* FSBTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSBTabBar.h; sourceTree = "<group>"; };
 		1B23A9E91E22099D00BC31D2 /* FSBTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSBTabBar.m; sourceTree = "<group>"; };
 		1B23A9EB1E220A2800BC31D2 /* FSBTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSBTabBarViewController.h; sourceTree = "<group>"; };
@@ -93,6 +120,10 @@
 		1BE44CE71E2481A800C00DA9 /* FSBTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSBTableViewController.h; sourceTree = "<group>"; };
 		1BE44CE81E2481A800C00DA9 /* FSBTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSBTableViewController.m; sourceTree = "<group>"; };
 		1BE44CE91E2481A800C00DA9 /* FSBTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FSBTableViewController.xib; sourceTree = "<group>"; };
+		1BE44CED1E2495D700C00DA9 /* PSCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PSCollectionView.h; path = "../../../../Downloads/PSCollectionView-master/PSCollectionView.h"; sourceTree = "<group>"; };
+		1BE44CEE1E2495D700C00DA9 /* PSCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PSCollectionView.m; path = "../../../../Downloads/PSCollectionView-master/PSCollectionView.m"; sourceTree = "<group>"; };
+		1BE44CEF1E2495D700C00DA9 /* PSCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PSCollectionViewCell.h; path = "../../../../Downloads/PSCollectionView-master/PSCollectionViewCell.h"; sourceTree = "<group>"; };
+		1BE44CF01E2495D700C00DA9 /* PSCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PSCollectionViewCell.m; path = "../../../../Downloads/PSCollectionView-master/PSCollectionViewCell.m"; sourceTree = "<group>"; };
 		7EF29A23DACA28E21EC65129 /* Pods-Fisbump.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fisbump.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fisbump/Pods-Fisbump.debug.xcconfig"; sourceTree = "<group>"; };
 		A23DBD8469BC682ED969A842 /* Pods-Fisbump.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fisbump.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fisbump/Pods-Fisbump.release.xcconfig"; sourceTree = "<group>"; };
 		EC18B31BE7AE15559ACEDD0F /* libPods-Fisbump.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Fisbump.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -110,6 +141,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B0438911E261E4A0095A0B1 /* custom */ = {
+			isa = PBXGroup;
+			children = (
+				1B04389F1E261FE60095A0B1 /* SFCircleRefreshControl.h */,
+				1B0438A01E261FE60095A0B1 /* SFCircleRefreshControl.m */,
+			);
+			name = custom;
+			sourceTree = "<group>";
+		};
+		1B0438A21E2629370095A0B1 /* details */ = {
+			isa = PBXGroup;
+			children = (
+				1B0438A31E2629710095A0B1 /* FSBDetailsViewController.h */,
+				1B0438A41E2629710095A0B1 /* FSBDetailsViewController.m */,
+				1B0438A51E2629710095A0B1 /* FSBDetailsViewController.xib */,
+			);
+			name = details;
+			sourceTree = "<group>";
+		};
 		1BC692A31E2359CF0099909A /* network */ = {
 			isa = PBXGroup;
 			children = (
@@ -156,6 +206,8 @@
 		1BD505511E214115004172E2 /* Fisbump */ = {
 			isa = PBXGroup;
 			children = (
+				1B0438A21E2629370095A0B1 /* details */,
+				1BE44CEC1E2495C600C00DA9 /* lib */,
 				1BC692B31E23AF5C0099909A /* model */,
 				1BC692A31E2359CF0099909A /* network */,
 				1BD505711E216A78004172E2 /* search */,
@@ -176,6 +228,7 @@
 			isa = PBXGroup;
 			children = (
 				1BD5055B1E214115004172E2 /* Main.storyboard */,
+				1B1A751A1E252D5B0060B63D /* 1.plist */,
 				1BD5055E1E214115004172E2 /* Assets.xcassets */,
 				1BD505601E214115004172E2 /* LaunchScreen.storyboard */,
 				1BD505631E214115004172E2 /* Info.plist */,
@@ -283,11 +336,33 @@
 		1BE44CE11E246FEB00C00DA9 /* view */ = {
 			isa = PBXGroup;
 			children = (
+				1B04388C1E2607270095A0B1 /* MCCollectionViewCell.h */,
+				1B04388D1E2607270095A0B1 /* MCCollectionViewCell.m */,
+				1B04388E1E2607270095A0B1 /* MCCollectionViewCell.xib */,
 				1BE44CE21E24706F00C00DA9 /* FSBShareCell.h */,
 				1BE44CE31E24706F00C00DA9 /* FSBShareCell.m */,
 				1BE44CE41E24706F00C00DA9 /* FSBShareCell.xib */,
 			);
 			name = view;
+			sourceTree = "<group>";
+		};
+		1BE44CEC1E2495C600C00DA9 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				1B0438911E261E4A0095A0B1 /* custom */,
+				1B0438951E261FCB0095A0B1 /* SFLoadMoreControl.h */,
+				1B0438961E261FCB0095A0B1 /* SFLoadMoreControl.m */,
+				1B0438971E261FCB0095A0B1 /* SFPullRefresh.h */,
+				1B0438981E261FCB0095A0B1 /* SFRefreshControl.h */,
+				1B0438991E261FCB0095A0B1 /* SFRefreshControl.m */,
+				1B04389A1E261FCB0095A0B1 /* UIScrollView+SFPullRefresh.h */,
+				1B04389B1E261FCB0095A0B1 /* UIScrollView+SFPullRefresh.m */,
+				1BE44CED1E2495D700C00DA9 /* PSCollectionView.h */,
+				1BE44CEE1E2495D700C00DA9 /* PSCollectionView.m */,
+				1BE44CEF1E2495D700C00DA9 /* PSCollectionViewCell.h */,
+				1BE44CF01E2495D700C00DA9 /* PSCollectionViewCell.m */,
+			);
+			name = lib;
 			sourceTree = "<group>";
 		};
 		A61308979535C0E7FCB1EB46 /* Frameworks */ = {
@@ -371,11 +446,14 @@
 			files = (
 				1BD505621E214115004172E2 /* LaunchScreen.storyboard in Resources */,
 				1BE44CE61E24706F00C00DA9 /* FSBShareCell.xib in Resources */,
+				1B0438A71E2629710095A0B1 /* FSBDetailsViewController.xib in Resources */,
+				1B1A751B1E252D5B0060B63D /* 1.plist in Resources */,
 				1B23A9FD1E220C0500BC31D2 /* FSBMeViewController.xib in Resources */,
 				1BE44CEB1E2481A800C00DA9 /* FSBTableViewController.xib in Resources */,
 				1B23AA071E2237D700BC31D2 /* FSBSendShareViewController.xib in Resources */,
 				1B23A9F81E220BE200BC31D2 /* FSBHomeViewController.xib in Resources */,
 				1BD5055F1E214115004172E2 /* Assets.xcassets in Resources */,
+				1B0438901E2607270095A0B1 /* MCCollectionViewCell.xib in Resources */,
 				1B23AA0D1E223E3400BC31D2 /* FSBSettingViewController.xib in Resources */,
 				1B23AA021E220C1800BC31D2 /* FSBSearchViewController.xib in Resources */,
 				1BD5055D1E214115004172E2 /* Main.storyboard in Resources */,
@@ -438,23 +516,31 @@
 			buildActionMask = 2147483647;
 			files = (
 				1BC692B91E23B9A80099909A /* FSBUser.m in Sources */,
+				1B0438A61E2629710095A0B1 /* FSBDetailsViewController.m in Sources */,
 				1BD505571E214115004172E2 /* AppDelegate.m in Sources */,
 				1B23A9F31E220AFA00BC31D2 /* FSBBaseViewController.m in Sources */,
 				1BC692B21E236E710099909A /* FSBHomeHandler.m in Sources */,
+				1B04388F1E2607270095A0B1 /* MCCollectionViewCell.m in Sources */,
 				1BC692B61E23B9280099909A /* FSBShare.m in Sources */,
 				1BD505541E214115004172E2 /* main.m in Sources */,
+				1B04389E1E261FCB0095A0B1 /* UIScrollView+SFPullRefresh.m in Sources */,
 				1B23A9ED1E220A2800BC31D2 /* FSBTabBarViewController.m in Sources */,
 				1B23AA061E2237D700BC31D2 /* FSBSendShareViewController.m in Sources */,
 				1B23AA0C1E223E3400BC31D2 /* FSBSettingViewController.m in Sources */,
 				1B23A9FC1E220C0500BC31D2 /* FSBMeViewController.m in Sources */,
+				1B04389C1E261FCB0095A0B1 /* SFLoadMoreControl.m in Sources */,
 				1BE44CE51E24706F00C00DA9 /* FSBShareCell.m in Sources */,
+				1BE44CF21E2495D700C00DA9 /* PSCollectionViewCell.m in Sources */,
 				1B23A9F01E220ABD00BC31D2 /* FSBNavigationViewController.m in Sources */,
+				1B0438A11E261FE60095A0B1 /* SFCircleRefreshControl.m in Sources */,
 				1B23A9F71E220BE200BC31D2 /* FSBHomeViewController.m in Sources */,
 				1BE44CEA1E2481A800C00DA9 /* FSBTableViewController.m in Sources */,
+				1B04389D1E261FCB0095A0B1 /* SFRefreshControl.m in Sources */,
 				1BC692AF1E235CE00099909A /* FSBBaseHandler.m in Sources */,
 				1B23A9EA1E22099D00BC31D2 /* FSBTabBar.m in Sources */,
 				1BC692AC1E235AB10099909A /* UIImageView+SDWebImage.m in Sources */,
 				1B23AA011E220C1800BC31D2 /* FSBSearchViewController.m in Sources */,
+				1BE44CF11E2495D700C00DA9 /* PSCollectionView.m in Sources */,
 				1BC692AB1E235AB10099909A /* HttpTool.m in Sources */,
 				1BC692BC1E23B9BF0099909A /* FSBIMG.m in Sources */,
 			);
@@ -572,6 +658,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Fisbump/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -586,6 +675,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Fisbump/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

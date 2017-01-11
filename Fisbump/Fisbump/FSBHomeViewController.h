@@ -7,7 +7,8 @@
 //
 
 #import "FSBBaseViewController.h"
+#import "PSCollectionView.h"
 
-@interface FSBHomeViewController : FSBBaseViewController
-
+@interface FSBHomeViewController : FSBBaseViewController<UIScrollViewDelegate,PSCollectionViewDataSource,PSCollectionViewDelegate>
+@property (strong,nonatomic) PSCollectionView *waterFLowView;
 @end

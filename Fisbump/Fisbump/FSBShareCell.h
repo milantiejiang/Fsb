@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "FSBShare.h"
-@interface FSBShareCell : UITableViewCell
+#import "PSCollectionViewCell.h"
+@interface FSBShareCell : PSCollectionViewCell
 @property (nonatomic,strong) FSBShare * share;
 @end

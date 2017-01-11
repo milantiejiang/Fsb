@@ -19,6 +19,8 @@
 @end
 @implementation FSBShareCell
 
+CGFloat height;
+
 -(void)setShare:(FSBShare *)share{
     _share=share;
     [self.UserIcon downloadImage:share.USER.ICON.IMG_PATH placeholder:@"fisbump"];
@@ -36,10 +38,29 @@
     self.UserIcon.layer.masksToBounds = YES;
 }
 
-- (void)setSelected:(BOOL)selected animated:(BOOL)animated {
-    [super setSelected:selected animated:animated];
-
-    // Configure the view for the selected state
+- (id)initWithFrame:(CGRect)frame
+{
+    self = [super initWithFrame:frame];
+    if (self) {
+        // Initialization code
+        
+        height = self.frame.size.height;
+    }
+    return self;
 }
+
++ (CGFloat)rowHeightForObject:(id)object inColumnWidth:(CGFloat)columnWidth{
+    /*
+     在这里实现动态高度的计算
+     */
+    int y =100 +  (arc4random() % 200);
+    return y;
+}
+
+//- (void)setSelected:(BOOL)selected animated:(BOOL)animated {
+//    [super setSelected:selected animated:animated];
+//
+//    // Configure the view for the selected state
+//}
 
 @end
